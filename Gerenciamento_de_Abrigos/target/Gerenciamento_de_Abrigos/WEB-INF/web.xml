@@ -1,0 +1,70 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+  <servlet>
+    <servlet-name>AbrigoController</servlet-name>
+    <servlet-class>br.csi.controller.AbrigoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AbrigoController</servlet-name>
+    <url-pattern>/AbrigoController/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CadVitControl</servlet-name>
+    <servlet-class>br.csi.controller.CadVitControl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CadVitControl</servlet-name>
+    <url-pattern>/CadVitControl/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CadVolControl</servlet-name>
+    <servlet-class>br.csi.controller.CadVolControl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CadVolControl</servlet-name>
+    <url-pattern>/CadVolControl/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HomeController</servlet-name>
+    <servlet-class>br.csi.controller.HomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeController</servlet-name>
+    <url-pattern>/HomeController/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>VitimaController</servlet-name>
+    <servlet-class>br.csi.controller.VitimaController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VitimaController</servlet-name>
+    <url-pattern>/VitimaController/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>VoluntarioController</servlet-name>
+    <servlet-class>br.csi.controller.VoluntarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VoluntarioController</servlet-name>
+    <url-pattern>/VoluntarioController/*</url-pattern>
+  </servlet-mapping>
+
+  <display-name>Gerenciamento de Abrigos</display-name>
+  <mime-mapping>
+    <extension>css</extension>
+    <mime-type>text/css</mime-type>
+  </mime-mapping>
+</web-app>
