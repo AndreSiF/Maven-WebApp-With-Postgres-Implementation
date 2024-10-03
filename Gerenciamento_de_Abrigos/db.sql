@@ -370,7 +370,7 @@ ALTER TABLE ONLY public.voluntario ALTER COLUMN id_volunt SET DEFAULT nextval('p
 --
 
 COPY public.abrigo (id_abrigo, nome_abrigo, endereco, vagas, cadastros) FROM stdin;
-1	Abrigo1	aa	3	3
+1	Abrigo1	aa	10	3
 2	Abrigo2	bb	2	2
 \.
 
@@ -408,7 +408,7 @@ COPY public.riscos (id_riscos, id_vitima, frio, nutricao, desidrat, machucado) F
 --
 
 COPY public.usuario (id_usuario, nome, cpf, data_cad, idade, id_abrigo) FROM stdin;
-1	AndrÃ©	123.456.789-10	2024-07-11	12	1
+1	André	123.456.789-10	2024-07-11	12	1
 2	aa	324.543.334-21	2024-07-11	43	1
 3	gf	126.432.123-32	2024-07-11	435	1
 6	asd	312.432.123-43	2024-07-11	123	2
